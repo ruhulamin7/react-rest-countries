@@ -17,7 +17,11 @@ const Countries = () => {
             </div>
             <div className='country-container'>
                 {
-                    countries.map(country => <Country name={country.name} capital={country.capital} flag={country.flag} population={country.population}></Country>)
+                    countries.map(country => <Country
+                        country={country}
+                    >
+
+                    </Country>)
                 }
             </div>
         </div>
