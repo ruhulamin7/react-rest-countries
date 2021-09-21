@@ -19,6 +19,7 @@ const Countries = () => {
                 {
                     countries.map(country => <Country
                         country={country}
+                        key={country.name}
                     >
 
                     </Country>)
